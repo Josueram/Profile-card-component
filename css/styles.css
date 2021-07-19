@@ -119,14 +119,16 @@ body {
     }
     .circle-bottom {
         width: 850px;
-        height: 850px;
+        height: 320px;
         position: absolute;
-        bottom: -500px;
+        bottom: 0px;
         right: -100px;
         z-index: 1;
         overflow: hidden;
     }
     .circle-bottom img {
+        width: 850px;
+        height: 850px;
         position: absolute;
         z-index: 1;
     }
